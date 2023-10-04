@@ -13,9 +13,9 @@ public class UserService {
             this.emailService = emailService;
         }
 
-        public void registerUser(String username, String email){
+        public String registerUser(String username, String email){
 
-            emailService.sendEmail(email, "Welcome to our platform!");
+            return emailService.sendEmail(email, "Welcome to our platform!");
         }
 }
 
