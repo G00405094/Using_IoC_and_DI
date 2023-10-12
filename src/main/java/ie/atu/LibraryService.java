@@ -7,6 +7,7 @@ import java.util.ArrayList;
 
 @Service
 public class LibraryService {
+
   ArrayList<Book> list = new ArrayList<>();
 
     public void add(Book book) {
